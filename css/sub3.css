@@ -7,8 +7,9 @@
 .content{
 	height: 50px;border-bottom: 1px solid #E0E0E0;
 	padding: 0px 4px 0px 4px;background: white;
-	display: flex;width: 100%;
+	display: flex;width: 100%;text-decoration: none;
 	flex-flow: row nowrap;
+	
 /*	justify-content: space-between;*/
 	align-items: center;
 }
@@ -16,12 +17,12 @@
 	width: 40px;height: 40px;/*border: 1px solid red;*/position: relative;
 }
 .content-left img{
-	width: 40px;height: 40px;border-radius: 6px;
+	width: 40px;height: 40px;/*border-radius: 6px;*/
 }
 .content-center{
 	height: 40px;flex-glow: 1px;/*padding-right: 220px;*/width:70%;
-	display: flex;justify-content: flex-start;
-	align-items: center;
+	display: flex;justify-content: flex-start;white-space: normal;
+	align-items: center;overflow: hidden;text-overflow: ellipsis;
 }
 .content-right{
 	height: 40px;font-size:15px;width: 15%;
@@ -47,3 +48,4 @@
 	height: 55px;width: 100%;display: flex;/*border: 1px solid red;*/
 	text-decoration: none;color: black;
 }
+
